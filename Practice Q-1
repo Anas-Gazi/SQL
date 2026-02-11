@@ -1,0 +1,24 @@
+CREATE DATABASE ami;
+USE ami;
+
+CREATE TABLE employee(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+salary INT 
+);
+
+INSERT INTO employee(id, name,salary)
+VALUES
+(1, "Anas", 500),
+(2, "khan", 365),
+(3, "Anas", 500);
+
+SELECT * from employee
+
+
+//output
+id  name   salary
+1 	Anas	 500
+2 	khan   365
+3 	Anas	 500
+		
