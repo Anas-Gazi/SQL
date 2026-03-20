@@ -18,5 +18,4 @@ The database models how citizens submit complaints, how officers process them, a
 
 1. Run `CivicTrack BD` to create the database schema.
 2. Run `data.sql` to populate data.
-3. Run `main.sql` for verification queries.
-4. Use `practice.sql` and `Practice Q-1` for practice and learning.
+3. Use `practice.sql`  for practice and learning.
